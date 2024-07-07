@@ -22,12 +22,6 @@ body {
   border-radius: 16px;
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: overlay;
-
-  /* background-color: linear-gradient(
-    180deg,
-    rgb(7, 2, 17),
-    rgba(7, 2, 17, 0) 100%
-  ); */
 }
 
 .banner-content {
@@ -56,6 +50,7 @@ body {
 }
 
 /* 65% section styles here */
+
 .second-section-container {
   max-width: 802.9px;
   height: 806px;
@@ -96,4 +91,65 @@ body {
 .new-year-img {
   width: 802.9px;
   height: 500px;
+}
+
+/* Midnight Section Styles Here */
+
+.midnight-container {
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-image: url(/images/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.leftside-content {
+  width: 66%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 126px;
+  text-align: left;
+}
+.leftside-content h1 {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  /* margin: 126px 94px 26px 126px; */
+}
+.leftside-content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  padding: 35px 0;
+  /* margin-right: 126px;
+  margin-left: 39px; */
+}
+.leftside-content span {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.rightside-content {
+  width: 34%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
