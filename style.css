@@ -109,6 +109,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 70px;
+  margin-bottom: 100px;
 }
 
 .leftside-content {
@@ -152,4 +153,69 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+
+/* holiday container style */
+
+.holiday-container {
+  width: 1320px;
+  height: 986.07px;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.holiday-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1068px;
+  height: 260px;
+  margin: 0 auto;
+}
+
+.holiday-text-container h5 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.holiday-text-container h1 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.holiday-text-container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.solid-color {
+  width: 1320px;
+  height: 229px;
+  background-color: red;
+  position: absolute;
+  top: 77%;
+}
+/* .giftbox {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+} */
+.box-img {
+  width: 60%;
+  position: absolute;
+  left: 2%;
+}
+.discount-img {
+  width: 40%;
+  position: absolute;
+  top: 40%;
+  left: 72%;
 }
