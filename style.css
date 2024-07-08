@@ -16,7 +16,7 @@ body {
   max-width: 1320px;
   height: 600px;
   margin: 50px auto;
-  background-image: url(/images/Banner\ Image.png);
+  background-image: url(./images/Banner\ Image.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
@@ -100,7 +100,7 @@ body {
   height: 600px;
   margin: 0 auto;
   margin-top: 50px;
-  background-image: url(/images/Vectorrr.png);
+  background-image: url(./images/Vectorrr.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.5);
@@ -160,7 +160,6 @@ body {
 .holiday-container {
   width: 1320px;
   height: 986.07px;
-  border: 1px solid black;
   margin: 0 auto;
   margin-bottom: 100px;
   position: relative;
@@ -203,11 +202,7 @@ body {
   position: absolute;
   top: 77%;
 }
-/* .giftbox {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-} */
+
 .box-img {
   width: 60%;
   position: absolute;
@@ -218,4 +213,45 @@ body {
   position: absolute;
   top: 40%;
   left: 72%;
+}
+
+/* Portfolio Section Style Starts here */
+
+.portfolio-container {
+  width: 1320px;
+  height: 1163px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.portfolio-content h3 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.portfolio-content h1 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 4px;
+}
+.portfolio-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.portfolio-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.item {
+  width: 424px;
+  height: 450px;
 }
